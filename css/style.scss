@@ -22,3 +22,19 @@ $Corporate1Darken: darken($Corporate1, 10%);
     font-size: 62.5%;
     font-family: $FontFamily;
   }
+
+/* Item display */
+
+  .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eff3f6;
+    max-height: 45rem;
+  
+    img,
+    section {
+      width: 50%;
+      max-width: 50%;
+    }
+  }

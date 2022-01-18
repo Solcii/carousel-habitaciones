@@ -10,4 +10,25 @@
   font-size: 62.5%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+
+/* Item display */
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #eff3f6;
+  max-height: 45rem;
+}
+
+.item img,
+.item section {
+  width: 50%;
+  max-width: 50%;
+}
 /*# sourceMappingURL=style.css.map */
