@@ -1,0 +1,14 @@
+/* Variables */
+/* Fuentes */
+$FontFamily: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+$Font1: 600 3rem $FontFamily;
+$Font2: 600 1.5rem $FontFamily;
+$Font3: 2rem $FontFamily;
+
+/* Colores */
+$Corporate1: #48b1a6;
+$Corporate2: #343434;
+$Corporate3: #fafafa;
+
+$Corporate1Darken: darken($Corporate1, 10%);
