@@ -92,4 +92,54 @@
   background: #398d84;
   border-color: #398d84;
 }
+
+/* Botones y Dots de navegacion */
+.carousel {
+  position: relative;
+}
+
+.owl-nav {
+  font-size: 4rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(0%);
+          transform: translateX(-50%) translateY(0%);
+}
+
+.owl-nav span {
+  margin: 1rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.owl-dots {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin: 0 0 8rem 6rem;
+}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+  margin: 0;
+  border: none;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  background: #fafafa;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  background: #48b1a6;
+  color: #fafafa;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
 /*# sourceMappingURL=style.css.map */

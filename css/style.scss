@@ -97,3 +97,50 @@ $Corporate1Darken: darken($Corporate1, 10%);
       border-color: $Corporate1Darken;
     }
   }
+
+/* Botones y Dots de navegacion */
+.carousel {
+    position: relative;
+  }
+
+  .owl- {
+    &nav {
+    font-size: 4rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(0%);
+
+    span {
+        margin: 1rem 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  &dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin: 0 0 8rem 6rem;
+  }
+
+  &carousel {
+      .owl-nav button{
+
+        &.owl-prev, &.owl-next{
+          margin: 0;
+          border: none;
+        }
+          &.owl-prev{
+            background: $Corporate3;
+            border-radius: 0.5rem 0 0 0.5rem;
+          }
+          &.owl-next{
+            background: $Corporate1;
+            color: $Corporate3;
+            border-radius: 0 0.5rem 0.5rem 0;
+          }
+      }
+  }
+}
