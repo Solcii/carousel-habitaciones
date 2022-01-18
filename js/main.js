@@ -1,3 +1,14 @@
+/* Array con Informacion habitaciones */
+
+const habitaciones = [
+    {img: 'hab-1',imgDesc: 'Habitacion 1',type:'apartamento', name:'Ático Duplex', info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quisquam sed mollitia vitae soluta quae odio fugiat facilis minus repella.', moreInfo:'https://github.com/Solcii'},
+    {img: 'hab-2',imgDesc: 'Habitacion 2', type:'habitacion matrimonial', name:'Suite presidencial', info: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quam voluptatibus debitis laborum repellat eum reiciendis nam inventore! Asperiores eligendi adipisci illo tempora odit ratione.', moreInfo:'https://github.com/Solcii'}, 
+    {img: 'hab-3',imgDesc: 'Habitacion 3',type:'habitacion familiar', name:'Triple standard', info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis consectetur blanditiis doloremque sit nam veniam velit doloribus, similique reiciendis explicabo, dolorem amet sint.', moreInfo:'https://github.com/Solcii'},
+    {img: 'hab-4',imgDesc: 'Habitacion 4',type:'apartamento', name:'Duplex con vista', info: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere at in fuga, dolorum enim nihil laudantium natus doloremque?', moreInfo:'https://github.com/Solcii'},
+    {img: 'hab-5',imgDesc: 'Habitacion 5',type:'habitacion single', name:'Suite', info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aliquid temporibus, placeat, saepe distinctio perferendis ipsam facere magni, fuga voluptatibus et tempora asperiores!', moreInfo:'https://github.com/Solcii'},
+    {img: 'hab-6',imgDesc: 'Habitacion 6',type:'habitacion doble', name:'Doble standard', info: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, dolor impedit, distinctio earum nostrum perferendis maiores expedita sequi quae est libero.', moreInfo:'https://github.com/Solcii'}
+]
+
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:0,
