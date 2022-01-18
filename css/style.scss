@@ -79,22 +79,22 @@ $Corporate1Darken: darken($Corporate1, 10%);
       text-decoration: none;
       color: $Corporate1;
       margin-right: 1rem;
-    }
-  
-    .more-info:hover {
-      color: $Corporate1Darken;
-      border-color: $Corporate1Darken;
+
+      &:hover{
+        color: $Corporate1Darken;
+        border-color: $Corporate1Darken;
+      }
     }
   
     .button-promotion {
       background: $Corporate1;
       color: $Corporate3;
       border: 0.2rem solid $Corporate1;
-    }
-  
-    .button-promotion:hover {
-      background: $Corporate1Darken;
-      border-color: $Corporate1Darken;
+
+      &:hover{
+        background: $Corporate1Darken;
+        border-color: $Corporate1Darken;
+      }
     }
   }
 
