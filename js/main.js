@@ -13,7 +13,7 @@ const habitaciones = [
 habitaciones.forEach(habitacion =>{
     $('.owl-carousel').append(`
     <div class="item">
-    <img src="images/${habitacion.img}.jpg" alt=${habitacion.imgDesc}>
+    <img src="images/${habitacion.img}.jpg" alt=${habitacion.imgDesc} data-aos="fade-down" data-aos-duration="3000">
     <section class="info-box">
         <h2 class="room-type">${habitacion.type}</h2>
         <h1 class="room-name">${habitacion.name}</h1>
@@ -27,6 +27,7 @@ habitaciones.forEach(habitacion =>{
 
 $('.owl-carousel').owlCarousel({
     loop:true,
+    animateOut: 'fadeOut',
     margin:0,
     autoplay: true,
     nav:true,
