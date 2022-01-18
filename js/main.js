@@ -9,6 +9,22 @@ const habitaciones = [
     {img: 'hab-6',imgDesc: 'Habitacion 6',type:'habitacion doble', name:'Doble standard', info: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, dolor impedit, distinctio earum nostrum perferendis maiores expedita sequi quae est libero.', moreInfo:'https://github.com/Solcii'}
 ]
 
+/* Creacion dinamica de items del carousel */
+habitaciones.forEach(habitacion =>{
+    $('.owl-carousel').append(`
+    <div class="item">
+    <img src="images/${habitacion.img}.jpg" alt=${habitacion.imgDesc}>
+    <section class="info-box">
+        <h2 class="room-type">${habitacion.type}</h2>
+        <h1 class="room-name">${habitacion.name}</h1>
+        <p class="room-info">${habitacion.info}</p>
+        <a class="more-info" href=${habitacion.moreInfo} target='_blank'>Leer más <i class="fas fa-arrow-right"></i></a>
+        <button class="button-promotion" >Reservar <i class="fas fa-arrow-right"></i></button>
+    </section>
+</div>`)
+})
+
+
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:0,
